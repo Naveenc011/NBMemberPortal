@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel = "tests" name="Suite">
+	
+	<groups>
+		
+		<run>
+			<include name="smokerun"></include>
+		</run>
+	</groups>
+	<listeners>
+		<listener class-name="Memberportal.test.testcomponents.Listeners"></listener>
+	</listeners>
+  <test thread-count="10" name="Regression Test">
+    <classes>
+      <class name="Memberportal.main.Memberportalmain"/>
+    </classes>
+  </test>
+  
+  <test thread-count="10" name="Smoke Test">
+    <classes>
+      <class name="Memberportal.main.MemberportalSmokeTest"/>
+    </classes>
+  </test>
+  
+</suite>
+

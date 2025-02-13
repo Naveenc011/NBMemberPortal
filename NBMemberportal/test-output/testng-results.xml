@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-27T13:58:11 IST" name="Suite" finished-at="2025-01-27T13:59:19 IST" duration-ms="67971">
+    <groups>
+    </groups>
+    <test started-at="2025-01-27T13:58:11 IST" name="Regression Test" finished-at="2025-01-27T13:59:19 IST" duration-ms="67971">
+      <class name="Memberportal.main.Memberportalmain">
+        <test-method is-config="true" signature="launchapplication()[pri:0, instance:Memberportal.main.Memberportalmain@71c27ee8]" started-at="2025-01-27T13:58:11 IST" name="launchapplication" finished-at="2025-01-27T13:58:28 IST" duration-ms="17326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchapplication -->
+        <test-method signature="MemberPortalregressionTest()[pri:0, instance:Memberportal.main.Memberportalmain@71c27ee8]" started-at="2025-01-27T13:58:28 IST" name="MemberPortalregressionTest" finished-at="2025-01-27T13:59:18 IST" duration-ms="49817" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MemberPortalregressionTest -->
+        <test-method is-config="true" signature="finishTest()[pri:0, instance:Memberportal.main.Memberportalmain@71c27ee8]" started-at="2025-01-27T13:59:18 IST" name="finishTest" finished-at="2025-01-27T13:59:19 IST" duration-ms="754" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finishTest -->
+      </class> <!-- Memberportal.main.Memberportalmain -->
+    </test> <!-- Regression Test -->
+  </suite> <!-- Suite -->
+</testng-results>
